@@ -40,9 +40,9 @@ from diffusers.utils import (
     is_accelerate_version,
     is_invisible_watermark_available,
     logging,
-    randn_tensor,
     replace_example_docstring,
 )
+from diffusers.utils.torch_utils import randn_tensor
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline
 from dataclasses import dataclass
 from diffusers.utils import BaseOutput
