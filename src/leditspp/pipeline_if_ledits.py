@@ -26,9 +26,9 @@ from diffusers.utils import (
     is_bs4_available,
     is_ftfy_available,
     logging,
-    randn_tensor,
     replace_example_docstring,
 )
+from diffusers.utils.torch_utils import randn_tensor
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline
 from diffusers.pipelines.deepfloyd_if import IFPipelineOutput
 from diffusers.pipelines.deepfloyd_if.safety_checker import IFSafetyChecker
