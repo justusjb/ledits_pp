@@ -1,4 +1,4 @@
-diffusers==0.20.2
+diffusers
 pillow
 transformers
 accelerate
